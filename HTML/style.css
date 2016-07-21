@@ -3319,7 +3319,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 #page-title {
 	position: relative;
-	padding: 50px 0;
+	padding: 20px 0;
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #EEE;
 }
@@ -5229,7 +5229,7 @@ body:not(.device-touch) .entry-link {
 	left: 50%;
 	margin-left: -71px;
 	width: 0;
-	border-left: 1px dashed #CCC;
+	border-left: 1px dashed #000;
 	height: 100%;
 }
 
@@ -5252,7 +5252,7 @@ body:not(.device-touch) .entry-link {
 	display: inline-block;
 	padding: 10px 15px;
 	background-color: #FFF;
-	border: 2px solid #EEE;
+	border: 2px solid #000;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -5263,7 +5263,7 @@ body:not(.device-touch) .entry-link {
 .post-timeline .entry-timeline {
 	display: none;
 	position: absolute;
-	border: 2px solid #CCC;
+	border: 2px solid #000;
 	background-color: #FFF;
 	padding-top: 0;
 	text-indent: -9999px;
@@ -5291,7 +5291,7 @@ body:not(.device-touch) .entry-link {
 	left: -58px;
 	width: 50px;
 	height: 0;
-	border-top: 1px dashed #CCC;
+	border-top: 1px dashed #000;
 	-webkit-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
@@ -8261,7 +8261,17 @@ body:not(.device-touch) .button.button-full strong {
 	cursor: pointer;
 	font-style: normal;
 }
-
+.social-icon-top{
+	display: block;
+	float: left;
+	margin: 4px 11px 7px 0;
+	text-align: center !important;
+	font-size: 28px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	cursor: pointer;
+	font-style: normal;
+}
 body:not(.device-touch) .i-rounded,
 body:not(.device-touch) .i-plain,
 body:not(.device-touch) .i-circled,
