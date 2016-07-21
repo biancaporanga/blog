@@ -8261,17 +8261,6 @@ body:not(.device-touch) .button.button-full strong {
 	cursor: pointer;
 	font-style: normal;
 }
-.social-icon-top{
-	display: block;
-	float: left;
-	margin: 4px 11px 7px 0;
-	text-align: center !important;
-	font-size: 28px;
-	color: #FFF;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	cursor: pointer;
-	font-style: normal;
-}
 body:not(.device-touch) .i-rounded,
 body:not(.device-touch) .i-plain,
 body:not(.device-touch) .i-circled,
@@ -11951,8 +11940,8 @@ button.toast-close-button {
 
 
 .widget {
-	position: relative;
-	margin-top: 50px;
+	/*position: relative;
+	margin-top: 50px;*/
 }
 
 .widget p { line-height: 1.7; }
