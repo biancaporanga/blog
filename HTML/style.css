@@ -1356,6 +1356,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 
 #primary-menu.style-2 > div #top-search,
 #primary-menu.style-2 > div #top-cart,
+#primary-menu.style-2 > div #redes-sociais,
 #primary-menu.style-2 > div #side-panel-trigger {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -1518,6 +1519,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 
 #primary-menu.sub-title.style-2 > div #top-search,
 #primary-menu.sub-title.style-2 > div #top-cart,
+#primary-menu.sub-title.style-2 > div #redes-sociais,
 #primary-menu.sub-title.style-2 > div #side-panel-trigger {
 	float: right;
 	margin-top: 30px;
@@ -1680,13 +1682,14 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 
 #top-search,
 #top-cart,
+#redes-sociais,
 #side-panel-trigger,
 #top-account {
 	float: right;
 	margin: 40px 0 40px 15px;
 }
 
-#top-cart { position: relative; }
+#top-cart, #redes-sociais { position: relative; }
 
 #top-search a,
 #top-cart a,
@@ -1793,9 +1796,15 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 /* ----------------------------------------------------------------
 	Top Cart
 -----------------------------------------------------------------*/
+/*#redes-sociais{
+	right: 0;
+	position: relative;
+	top:35px;
+	margin-right: 0;
+	float: left;
+}*/
 
-
-#top-cart { margin-right: 0; }
+#top-cart, #redes-sociais { margin-right: 0; }
 
 #top-cart > a > span {
 	display: block;
@@ -2005,7 +2014,9 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 }
 
 #top-search,
-#top-cart {
+#top-cart,
+#redes-sociais
+{
 	-webkit-transition: margin .4s ease, opacity .3s ease;
 	-o-transition: margin .4s ease, opacity .3s ease;
 	transition: margin .4s ease, opacity .3s ease;
@@ -2015,6 +2026,7 @@ body:not(.top-search-open) #header-wrap #logo,
 body:not(.top-search-open) #primary-menu > ul,
 body:not(.top-search-open) #primary-menu > .container > ul,
 body:not(.top-search-open) #top-cart,
+body:not(.top-search-open) #redes-sociais,
 body:not(.top-search-open) #side-panel-trigger,
 body:not(.top-search-open) #top-account {
 	opacity: 1;
@@ -2027,6 +2039,7 @@ body.top-search-open #header-wrap #logo,
 body.top-search-open #primary-menu > ul,
 body.top-search-open #primary-menu > .container > ul,
 body.top-search-open #top-cart,
+body.top-search-open #redes-sociais,
 body.top-search-open #side-panel-trigger,
 body.top-search-open #top-account { opacity: 0; }
 
@@ -2066,6 +2079,7 @@ body.top-search-open #top-account { opacity: 0; }
 
 #header.sticky-header:not(.static-sticky) #top-search,
 #header.sticky-header:not(.static-sticky) #top-cart,
+#header.sticky-header:not(.static-sticky) #redes-sociais,
 #header.sticky-header:not(.static-sticky) #side-panel-trigger {
 	margin-top: 20px !important;
 	margin-bottom: 20px !important;
