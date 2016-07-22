@@ -1682,13 +1682,16 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 
 #top-search,
 #top-cart,
-#redes-sociais,
+/*#redes-sociais,*/
 #side-panel-trigger,
 #top-account {
 	float: right;
-	margin: 40px 0 40px 15px;
+	margin: 40px 0 0px 15px;
 }
-
+#redes-sociais{
+	float: left;
+	margin: 35px 0 0px 15px;
+}
 #top-cart, #redes-sociais { position: relative; }
 
 #top-search a,
